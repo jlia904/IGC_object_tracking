@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+load_directory: "./"
+intrinsics:
+   f_u: 4.2417892456054688e+02
+   f_v: 4.2417892456054688e+02
+   pp_x: 4.2351104736328125e+02
+   pp_y: 2.4465441894531250e+02
+   width: 848
+   height: 480
+camera2world_pose: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: f
+   data: [ 9.99961495e-01, -6.49798941e-03, 5.89908054e-03,
+       1.46921985e-02, 6.49443315e-03, 9.99978721e-01, 6.21747342e-04,
+       9.52395058e-05, -5.90299489e-03, -5.83412300e-04, 9.99982417e-01,
+       4.53718589e-04, 0., 0., 0., 1. ]
+depth_scale: 1.0000000474974513e-03
+image_name_pre: depth_camera_image_
+load_index: 0
+n_leading_zeros: 0
+image_name_post: ""
+load_image_type: png
